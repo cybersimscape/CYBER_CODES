@@ -12,6 +12,7 @@ Welcome to my repository of source codes for creating fabulous custom content fo
 •Asset Organization XMLs: Keep your custom content organized and easy to manage with structured file paths.
 
 📁 File Structure
+
 Here's a peek at how everything is organized:
 ├── xmls
 │   ├── mesh-definitions
@@ -40,17 +41,21 @@ Here's a peek at how everything is organized:
 🚀 Getting Started
 
 🌈 Usage
+
 Set Up Sims 4 Studio: Ensure you have Sims 4 Studio installed on your computer.
 Import XMLs: Use the provided XML scripts in Sims 4 Studio to create and manage your custom content. Each script is documented to guide you through its usage.
 Organize Your Assets: Follow the file structure to keep your custom content organized and easily accessible.
 
 💕 Contributions
+
 I welcome contributions from the community! Feel free to fork this repository, make your changes, and submit a pull request. Let's make The Sims 4 even more fabulous together!
 
 📬 Contact
+
 Got questions or suggestions? Reach out to me on Twitter or email. I'd love to hear from you!
 
 🎀 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Thank you for visiting my repository! I hope these tools and scripts help you create stunning custom content for The Sims 4. Happy simming! 🌟
