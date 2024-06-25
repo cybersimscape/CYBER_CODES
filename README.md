@@ -3,6 +3,7 @@
 Welcome to my repository of source codes for creating fabulous custom content for The Sims 4! Here, you'll find all the XML scripts and tools I use to bring a touch of style and sparkle to your Sims' world. 💖
 
 ✨ Features
+
 •Custom Mesh XMLs: Scripts for defining beautiful and unique meshes for clothing, accessories, and more.
 
 •Texture Management XMLs: Efficiently handle and apply textures to your custom content.
