@@ -1,4 +1,4 @@
-
+• THIS CODE ONLY WORKS WITH INVENTORABLE BACKPACK TUNING. CHANGE YOUR OBJECT TUNING TO prototype_RetailCompatible_Backpack IF IT ISNT ALREADY
 
 <?xml version="1.0" encoding="utf-8"?>
 <I c="PrototypeObject" i="object" m="objects.prop_object" n="prototype_RetailCompatible_Backpack" s="349781">
