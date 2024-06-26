@@ -16,17 +16,22 @@ Welcome to my repository of source codes for creating fabulous custom content fo
 
 Here's a peek at how everything is organized:
 ├── xmls
+
 │   ├── mesh-definitions
-│   │   ├── clothing.xml
-│   │   └── accessories.xml
+│   │   ├── meshes.xml
+│   │   └── categories.xml
+
 │   ├── texture-definitions
 │   │   ├── apply-textures.xml
 │   │   └── manage-textures.xml
+
 │   ├── automation
 │   │   ├── batch-process.xml
 │   │   └── organize-assets.xml
 │   └── README.md
+
 └── assets
+
     ├── meshes
     │   ├── clothing
     │   │   ├── accessories
@@ -34,10 +39,11 @@ Here's a peek at how everything is organized:
     │   │   ├── dresses
     │   │   └── tops
     │   └── furniture
+    
     ├── textures
     │   ├── PBR
     │   └── Procedural
-    └── realistic-hairs
+    
     
 🚀 Getting Started
 
