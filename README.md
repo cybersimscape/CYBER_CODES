@@ -15,20 +15,19 @@ Welcome to my repository of source codes for creating fabulous custom content fo
 📁 File Structure
 
 Here's a peek at how everything is organized:
+.
 ├── xmls
- ├── mesh-definitions
-│   │   ├── meshes.xml
-│   │   └── categories.xml
- ├── texture-definitions
+│   ├── mesh-definitions
+│   │   ├── clothing.xml
+│   │   └── accessories.xml
+│   ├── texture-definitions
 │   │   ├── apply-textures.xml
 │   │   └── manage-textures.xml
- ├── automation
+│   ├── automation
 │   │   ├── batch-process.xml
 │   │   └── organize-assets.xml
 │   └── README.md
-
 └── assets
-
     ├── meshes
     │   ├── clothing
     │   │   ├── accessories
@@ -36,10 +35,11 @@ Here's a peek at how everything is organized:
     │   │   ├── dresses
     │   │   └── tops
     │   └── furniture
-    
     ├── textures
     │   ├── PBR
     │   └── Procedural
+    └── realistic-hairs
+
     
     
 🚀 Getting Started
