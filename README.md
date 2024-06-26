@@ -16,16 +16,13 @@ Welcome to my repository of source codes for creating fabulous custom content fo
 
 Here's a peek at how everything is organized:
 ├── xmls
-
-   ├── mesh-definitions
+ ├── mesh-definitions
 │   │   ├── meshes.xml
 │   │   └── categories.xml
-
-   ├── texture-definitions
+ ├── texture-definitions
 │   │   ├── apply-textures.xml
 │   │   └── manage-textures.xml
-
-   ├── automation
+ ├── automation
 │   │   ├── batch-process.xml
 │   │   └── organize-assets.xml
 │   └── README.md
