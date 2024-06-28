@@ -1,0 +1,27 @@
+This error occurs because the script attempted to convert a value that is infinity (likely due to a division by zero or an unbounded value) into an integer, which is not possible.
+The error originates from objectexporter.py in the Sims 4 Studio script located in C:\ProgramData\S4Studio\Scripts.
+The function save_lod() in objectexporter.py is being called and leads to the error.
+The problematic code is extremes = [math.ceil(max([abs(x) for x in extremes])) * 3.
+
+Possible Reasons for the Error:
+Unbounded Values: The extremes list might contain an unbounded value, possibly due to some geometry issues in the mesh being processed.
+Invalid Mesh Data: The mesh data might be corrupted or have some invalid vertices that cause calculations to produce infinity.
+Division by Zero: If there’s a division operation somewhere that ends up dividing by zero, it could lead to infinity.
+
+Steps to Resolve the Issue:
+Check Mesh Integrity: Verify the mesh for any corrupt or invalid data. You can use Blender's mesh validation tools to check for non-manifold edges, zero-area faces, or other issues.
+Review Script Logic: If you have access to the script, add debugging statements to inspect the values of extremes before the calculation. Ensure no infinite values are being processed.
+Safe Calculations: Modify the script to handle extreme values safely, possibly by adding checks for infinite values before performing conversions.
+
+Here’s how you can modify calculate_pos_scales() xml to handle infinities in blender:
+
+import math
+
+def calculate_pos_scales(total_mesh_bounds, max_pos_size):
+    extremes = total_mesh_bounds
+    # Ensure there are no infinite values
+    extremes = [x if not math.isinf(x) else 0 for x in extremes]
+    pos_scales = [math.ceil(max([abs(x) for x in extremes])) * 3]
+    return pos_scales
+
+By adding math.isinf(x) check, you can replace infinite values with zero, preventing the OverflowError.
